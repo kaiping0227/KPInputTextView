@@ -1,0 +1,6 @@
+framework module Pods_KPInputTextView_Example {
+  umbrella header "Pods-KPInputTextView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		241508C310570BA11012475C539EF1D5 /* KPInputTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C4F7123ACC6AAB2F158F874B90ACD14 /* KPInputTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AE5B1697AEB47ED2F0B4ABFE349FF8E /* Pods-KPInputTextView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7000E75AF4B15D695CCE5C10CEA15CA /* Pods-KPInputTextView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40DADF3BB006B1A2BC652D47C65B4869 /* KPInputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5B0D78247F464AD4DB4BB32634328F /* KPInputTextView.swift */; };
+		55F7B68C8D7D5087110F08136DF8D9B3 /* Pods-KPInputTextView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3592049C4E7D925C05A1632ED992BE /* Pods-KPInputTextView_Example-dummy.m */; };
+		581A49F4044A316CED090BD1EC55A133 /* Pods-KPInputTextView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30FCB16A347A718C3647A5087D0B9FD8 /* Pods-KPInputTextView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64E80C6005614A645FFB4EBDFBEEB0C3 /* Pods-KPInputTextView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049802808F3C1AD4B3948D7E62F2696 /* Pods-KPInputTextView_Tests-dummy.m */; };
+		91CE515969ECF97FD35662FC897A43D4 /* KPInputTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D264287F6B4E0F0B7941AD2547BA4E9 /* KPInputTextView-dummy.m */; };
+		9FB2F2F7E918900DF7013DD816751E93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DD5BA5FD5440D3BE783701D65B0CDEB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FCB580FBF86D1812F99B5605D332FCB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F1537442F1123850CEEA4196446264C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 493AD9F2CA6E7007A263107B1CB312E5;
+			remoteInfo = KPInputTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006D0C226319E5A8F7019EA8A320781D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08844F5428A2BF635D2CCA0A8531E3C2 /* Pods-KPInputTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPInputTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		150A24B0F50CC1C4A1FDA32845DB5D8B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C4F7123ACC6AAB2F158F874B90ACD14 /* KPInputTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KPInputTextView-umbrella.h"; sourceTree = "<group>"; };
+		2D264287F6B4E0F0B7941AD2547BA4E9 /* KPInputTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KPInputTextView-dummy.m"; sourceTree = "<group>"; };
+		3049802808F3C1AD4B3948D7E62F2696 /* Pods-KPInputTextView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KPInputTextView_Tests-dummy.m"; sourceTree = "<group>"; };
+		30FCB16A347A718C3647A5087D0B9FD8 /* Pods-KPInputTextView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KPInputTextView_Example-umbrella.h"; sourceTree = "<group>"; };
+		396594E5CC0EDC6114FA222247D569D7 /* Pods-KPInputTextView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KPInputTextView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3AF2E5818222EF009B54E5C9B74A49A2 /* Pods_KPInputTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KPInputTextView_Tests.framework; path = "Pods-KPInputTextView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFA51F701760CD8DC686D3590802EFD /* Pods-KPInputTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPInputTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		427A1B82E02E4C5B3F6A13D613322F3D /* Pods-KPInputTextView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KPInputTextView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4AC20E3979F5A811809063404AC3F137 /* Pods_KPInputTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KPInputTextView_Example.framework; path = "Pods-KPInputTextView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		586A6B51D308E28CCE940DF933318EF2 /* KPInputTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KPInputTextView-prefix.pch"; sourceTree = "<group>"; };
+		61C25148D5875E3C5E58A4EC55FEBAB6 /* Pods-KPInputTextView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KPInputTextView_Tests-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7CF09BB9E328E113C64DCBB6F4362CB3 /* KPInputTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KPInputTextView.modulemap; sourceTree = "<group>"; };
+		7F07CFEB47910CF3E8B1B229514230B7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6A37D6A11AE4FE4FA1EE136A555BF18 /* Pods-KPInputTextView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KPInputTextView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BB3592049C4E7D925C05A1632ED992BE /* Pods-KPInputTextView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KPInputTextView_Example-dummy.m"; sourceTree = "<group>"; };
+		CA14BC441FB6DD1B81653D5907EE8C1A /* KPInputTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KPInputTextView.xcconfig; sourceTree = "<group>"; };
+		CB5B0D78247F464AD4DB4BB32634328F /* KPInputTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KPInputTextView.swift; path = KPInputTextView/Classes/KPInputTextView.swift; sourceTree = "<group>"; };
+		D3AB779AFC9A30F03D57F89137F8EEED /* Pods-KPInputTextView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KPInputTextView_Tests.modulemap"; sourceTree = "<group>"; };
+		D5D80D90978FE0762A573A8E7468D7B0 /* Pods-KPInputTextView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KPInputTextView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D6D1A07F26CA67880B4DE56A00F9019E /* KPInputTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KPInputTextView.framework; path = KPInputTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E17066979193D111F1900BA1F4CBDAD0 /* Pods-KPInputTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPInputTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E5A8F22F994331011F8265C7328DA5B8 /* Pods-KPInputTextView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KPInputTextView_Example.modulemap"; sourceTree = "<group>"; };
+		E7DE15EB0EA4B5DDF81C6C051ACAAB5D /* Pods-KPInputTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPInputTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		ED8FF5BAE8D8E5C1B008CD0C439586A0 /* Pods-KPInputTextView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KPInputTextView_Example-resources.sh"; sourceTree = "<group>"; };
+		EF7619F24975D61D44B076DF01D63F5E /* Pods-KPInputTextView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KPInputTextView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F186F97A3F88F73F25224879360CC977 /* Pods-KPInputTextView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KPInputTextView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7000E75AF4B15D695CCE5C10CEA15CA /* Pods-KPInputTextView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KPInputTextView_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BC1066D457F2201705E12BD4A923298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5BA5FD5440D3BE783701D65B0CDEB1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7443A6B981DCCF59FCF14981D49676F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB580FBF86D1812F99B5605D332FCB1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A235B19241DB0FC0B7F8211651C80C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB2F2F7E918900DF7013DD816751E93 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		177677F5AEFCA52C08B8EB6980F2C84A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCD1780A953013F2519BC83D7EEA3161 /* KPInputTextView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4A1430F517D19CE6D778E94BC02D9DC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6D1A07F26CA67880B4DE56A00F9019E /* KPInputTextView.framework */,
+				4AC20E3979F5A811809063404AC3F137 /* Pods_KPInputTextView_Example.framework */,
+				3AF2E5818222EF009B54E5C9B74A49A2 /* Pods_KPInputTextView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71FD370E7A74736A0E1DF838E5AA5738 /* Pods-KPInputTextView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				150A24B0F50CC1C4A1FDA32845DB5D8B /* Info.plist */,
+				E5A8F22F994331011F8265C7328DA5B8 /* Pods-KPInputTextView_Example.modulemap */,
+				F186F97A3F88F73F25224879360CC977 /* Pods-KPInputTextView_Example-acknowledgements.markdown */,
+				396594E5CC0EDC6114FA222247D569D7 /* Pods-KPInputTextView_Example-acknowledgements.plist */,
+				BB3592049C4E7D925C05A1632ED992BE /* Pods-KPInputTextView_Example-dummy.m */,
+				427A1B82E02E4C5B3F6A13D613322F3D /* Pods-KPInputTextView_Example-frameworks.sh */,
+				ED8FF5BAE8D8E5C1B008CD0C439586A0 /* Pods-KPInputTextView_Example-resources.sh */,
+				30FCB16A347A718C3647A5087D0B9FD8 /* Pods-KPInputTextView_Example-umbrella.h */,
+				08844F5428A2BF635D2CCA0A8531E3C2 /* Pods-KPInputTextView_Example.debug.xcconfig */,
+				E17066979193D111F1900BA1F4CBDAD0 /* Pods-KPInputTextView_Example.release.xcconfig */,
+			);
+			name = "Pods-KPInputTextView_Example";
+			path = "Target Support Files/Pods-KPInputTextView_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				177677F5AEFCA52C08B8EB6980F2C84A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4A1430F517D19CE6D778E94BC02D9DC7 /* Products */,
+				E41F6BB60F395D29425AD53CCD439F9D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8910A49152EDEBBFFC5DC8B23FF51BAD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F07CFEB47910CF3E8B1B229514230B7 /* Info.plist */,
+				7CF09BB9E328E113C64DCBB6F4362CB3 /* KPInputTextView.modulemap */,
+				CA14BC441FB6DD1B81653D5907EE8C1A /* KPInputTextView.xcconfig */,
+				2D264287F6B4E0F0B7941AD2547BA4E9 /* KPInputTextView-dummy.m */,
+				586A6B51D308E28CCE940DF933318EF2 /* KPInputTextView-prefix.pch */,
+				2C4F7123ACC6AAB2F158F874B90ACD14 /* KPInputTextView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KPInputTextView";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCD1780A953013F2519BC83D7EEA3161 /* KPInputTextView */ = {
+			isa = PBXGroup;
+			children = (
+				CB5B0D78247F464AD4DB4BB32634328F /* KPInputTextView.swift */,
+				8910A49152EDEBBFFC5DC8B23FF51BAD /* Support Files */,
+			);
+			name = KPInputTextView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E41F6BB60F395D29425AD53CCD439F9D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				71FD370E7A74736A0E1DF838E5AA5738 /* Pods-KPInputTextView_Example */,
+				FD30864BB5D2309E8ED01B8088F582C9 /* Pods-KPInputTextView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FD30864BB5D2309E8ED01B8088F582C9 /* Pods-KPInputTextView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				006D0C226319E5A8F7019EA8A320781D /* Info.plist */,
+				D3AB779AFC9A30F03D57F89137F8EEED /* Pods-KPInputTextView_Tests.modulemap */,
+				A6A37D6A11AE4FE4FA1EE136A555BF18 /* Pods-KPInputTextView_Tests-acknowledgements.markdown */,
+				EF7619F24975D61D44B076DF01D63F5E /* Pods-KPInputTextView_Tests-acknowledgements.plist */,
+				3049802808F3C1AD4B3948D7E62F2696 /* Pods-KPInputTextView_Tests-dummy.m */,
+				D5D80D90978FE0762A573A8E7468D7B0 /* Pods-KPInputTextView_Tests-frameworks.sh */,
+				61C25148D5875E3C5E58A4EC55FEBAB6 /* Pods-KPInputTextView_Tests-resources.sh */,
+				F7000E75AF4B15D695CCE5C10CEA15CA /* Pods-KPInputTextView_Tests-umbrella.h */,
+				3CFA51F701760CD8DC686D3590802EFD /* Pods-KPInputTextView_Tests.debug.xcconfig */,
+				E7DE15EB0EA4B5DDF81C6C051ACAAB5D /* Pods-KPInputTextView_Tests.release.xcconfig */,
+			);
+			name = "Pods-KPInputTextView_Tests";
+			path = "Target Support Files/Pods-KPInputTextView_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		64D9ABA687830815577AF443E069D6E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581A49F4044A316CED090BD1EC55A133 /* Pods-KPInputTextView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D798DF804A3835C85710D54D78221EB5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241508C310570BA11012475C539EF1D5 /* KPInputTextView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F81AA8438AC632A83C10EAB19FE53D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE5B1697AEB47ED2F0B4ABFE349FF8E /* Pods-KPInputTextView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0514256BFBBC4C6542EF0873782D7759 /* Pods-KPInputTextView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5426B467263BACDE583AA926A8E0C04A /* Build configuration list for PBXNativeTarget "Pods-KPInputTextView_Tests" */;
+			buildPhases = (
+				D5EF8FAAF9FA213B7801837F9ECBB932 /* Sources */,
+				3BC1066D457F2201705E12BD4A923298 /* Frameworks */,
+				E0F81AA8438AC632A83C10EAB19FE53D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KPInputTextView_Tests";
+			productName = "Pods-KPInputTextView_Tests";
+			productReference = 3AF2E5818222EF009B54E5C9B74A49A2 /* Pods_KPInputTextView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		493AD9F2CA6E7007A263107B1CB312E5 /* KPInputTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00EECCEFDACEEED7243DDE948754CACE /* Build configuration list for PBXNativeTarget "KPInputTextView" */;
+			buildPhases = (
+				DFE1D23718278B6CB7F646FAC0FF6B7F /* Sources */,
+				7443A6B981DCCF59FCF14981D49676F2 /* Frameworks */,
+				D798DF804A3835C85710D54D78221EB5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KPInputTextView;
+			productName = KPInputTextView;
+			productReference = D6D1A07F26CA67880B4DE56A00F9019E /* KPInputTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A83BE0F91B103FBD5A39647184F1C03 /* Pods-KPInputTextView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F08949295C6151A5BE36C9F7981D9034 /* Build configuration list for PBXNativeTarget "Pods-KPInputTextView_Example" */;
+			buildPhases = (
+				9F29CDF7399EEA30DC66B48762CE344A /* Sources */,
+				D4A235B19241DB0FC0B7F8211651C80C /* Frameworks */,
+				64D9ABA687830815577AF443E069D6E8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E20568465108927EFD0391BBAAFFFA52 /* PBXTargetDependency */,
+			);
+			name = "Pods-KPInputTextView_Example";
+			productName = "Pods-KPInputTextView_Example";
+			productReference = 4AC20E3979F5A811809063404AC3F137 /* Pods_KPInputTextView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4A1430F517D19CE6D778E94BC02D9DC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				493AD9F2CA6E7007A263107B1CB312E5 /* KPInputTextView */,
+				4A83BE0F91B103FBD5A39647184F1C03 /* Pods-KPInputTextView_Example */,
+				0514256BFBBC4C6542EF0873782D7759 /* Pods-KPInputTextView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F29CDF7399EEA30DC66B48762CE344A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F7B68C8D7D5087110F08136DF8D9B3 /* Pods-KPInputTextView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5EF8FAAF9FA213B7801837F9ECBB932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E80C6005614A645FFB4EBDFBEEB0C3 /* Pods-KPInputTextView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE1D23718278B6CB7F646FAC0FF6B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CE515969ECF97FD35662FC897A43D4 /* KPInputTextView-dummy.m in Sources */,
+				40DADF3BB006B1A2BC652D47C65B4869 /* KPInputTextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E20568465108927EFD0391BBAAFFFA52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KPInputTextView;
+			target = 493AD9F2CA6E7007A263107B1CB312E5 /* KPInputTextView */;
+			targetProxy = 2F1537442F1123850CEEA4196446264C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2098AADE8F7ADE7381DBFCAB4495D43D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08844F5428A2BF635D2CCA0A8531E3C2 /* Pods-KPInputTextView_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KPInputTextView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KPInputTextView_Example/Pods-KPInputTextView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KPInputTextView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4A9A6920B465D153A8E59EE11F345D39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA14BC441FB6DD1B81653D5907EE8C1A /* KPInputTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KPInputTextView/KPInputTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KPInputTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KPInputTextView/KPInputTextView.modulemap";
+				PRODUCT_NAME = KPInputTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5FC33CBF8F3BE34F2116BD1CA7B817B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E17066979193D111F1900BA1F4CBDAD0 /* Pods-KPInputTextView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KPInputTextView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KPInputTextView_Example/Pods-KPInputTextView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KPInputTextView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		741916109A9ACCBA1BC139B6AA1B867A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CFA51F701760CD8DC686D3590802EFD /* Pods-KPInputTextView_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KPInputTextView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KPInputTextView_Tests/Pods-KPInputTextView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KPInputTextView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		895FFFE0487D4E7105C41F8B4C2D9AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7DE15EB0EA4B5DDF81C6C051ACAAB5D /* Pods-KPInputTextView_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KPInputTextView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KPInputTextView_Tests/Pods-KPInputTextView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KPInputTextView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC0395516D6E5E8928E3D9658E4DAE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA14BC441FB6DD1B81653D5907EE8C1A /* KPInputTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KPInputTextView/KPInputTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KPInputTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KPInputTextView/KPInputTextView.modulemap";
+				PRODUCT_NAME = KPInputTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00EECCEFDACEEED7243DDE948754CACE /* Build configuration list for PBXNativeTarget "KPInputTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A9A6920B465D153A8E59EE11F345D39 /* Debug */,
+				AC0395516D6E5E8928E3D9658E4DAE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5426B467263BACDE583AA926A8E0C04A /* Build configuration list for PBXNativeTarget "Pods-KPInputTextView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741916109A9ACCBA1BC139B6AA1B867A /* Debug */,
+				895FFFE0487D4E7105C41F8B4C2D9AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F08949295C6151A5BE36C9F7981D9034 /* Build configuration list for PBXNativeTarget "Pods-KPInputTextView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2098AADE8F7ADE7381DBFCAB4495D43D /* Debug */,
+				5FC33CBF8F3BE34F2116BD1CA7B817B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module KPInputTextView {
+  umbrella header "KPInputTextView-umbrella.h"
+
+  export *
+  module * { export * }
+}
