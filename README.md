@@ -9,7 +9,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-![Alt Text](https://media.giphy.com/media/6s8KRahnnGVTFc6GbC/giphy.gif)
+![Alt Text](https://media.giphy.com/media/8wi0k1lP51qtiyLqkF/giphy.gif)
 
 ## Requirements
 * iOS 9.0+
