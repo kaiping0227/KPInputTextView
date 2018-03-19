@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KPInputTextView_Example' do
+  pod 'KPInputTextView', :path => '../'
+
+  target 'KPInputTextView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
