@@ -9,7 +9,10 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+![Alt Text](https://media.giphy.com/media/6s8KRahnnGVTFc6GbC/giphy.gif)
+
 ## Requirements
+* iOS 9.0+
 
 ## Installation
 
@@ -20,9 +23,76 @@ it, simply add the following line to your Podfile:
 pod 'KPInputTextView'
 ```
 
+## How To Use
+```
+import KPInputTextView
+
+Class YourViewController: UIViewController {
+
+	let kpInputView = KPInputTextView()
+	
+	override var inputAccessoryView: UIView? {
+		get {
+			return kpInputView
+		}
+	}
+	
+	override var canBecomeFirstResponder: Bool {
+		return true
+	}
+	
+	override func viewDidLoad() {
+		super.viewDidLoad()
+		
+		kpInputView.delegate = self
+		
+		// Adjust kpInputView's properties here.
+		kpInputView.backgroundColor = .blue
+		
+	}
+
+}
+
+extension ViewController: KPInputDelegate {
+	
+	func didSend(_ text: String) {
+		// Do something after clicked send button.
+
+		
+		// When clicked send button, clear text in inputTextView.
+		kpInputView.clearTextField()
+	}
+}
+```
+## Supported Properties
+Property  | Default
+------------- | -------------
+backgroundColor | UIColor.lightGray
+textViewBackgroundColor  | UIColor.white
+textViewCornerRadius  | 10
+textViewBorderWidth  | 1
+textViewBorderColor  | UIColor.black.cgColor
+placeholderText  | "message..."
+placeholderTextColor  | UIColor.lightGray
+sendButtonTitle  | "Send"
+sendButtonTitleColor  | UIColor.black
+sendButtonBackgroundColor  | UIColor.red
+sendButtonCornerRadius  | 7.5
+sendButtonFont | UIFont.boldSystemFont(ofSize: 14)
+maxLines | 6
+
+Function | Description
+------------- | -------------
+clearTextField() | Clear text.
+
+
 ## Author
 
-francis830227, francis830227@gmail.com
+Francis Tseng
+
+francis830227@gmail.com
+
+[LinkedIn](linkedin.com/in/francis-tseng-82b345113)  
 
 ## License
 
